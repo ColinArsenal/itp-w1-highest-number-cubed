@@ -2,9 +2,9 @@
 
 
 def highest_number_cubed(limit):
-    cube = 1
-    for num in range(limit):
-        while (num ** 3) < limit:
-            cube += 1
-        return cube
+    x = 1
+    for i in range(limit):
+        while (x**3) <= limit:
+            x += 1
+    return (x -1)
          
